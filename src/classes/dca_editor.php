@@ -59,9 +59,10 @@ class dca_editor extends System
 	{
 		$this->import('Database');
 		// Delete folder
-		$this->unlinkDir($this->myDir, true);
+		$this->unlinkDir($this->myDir.'/dca', true);
+		$this->unlinkDir($this->myDir.'/languages/', true);
+		$this->unlinkDir($this->myDir.'/config/', true);
 		// Create Folder
-		mkdir($this->myDir);
 		mkdir($this->myDir.'/dca');
 		mkdir($this->myDir.'/languages/');
 		mkdir($this->myDir.'/config/');
