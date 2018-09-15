@@ -17,7 +17,7 @@
     },
     "autoload": {
 		  "psr-4": {
-			  "dca_editor\\": "src/"
+			  "thoni\\dca_editor\\": "src/"
 		  }
     },
     "extra": {
