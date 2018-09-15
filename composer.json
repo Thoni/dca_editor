@@ -1,5 +1,5 @@
 {
-    "name": "Thoni/dca_editor",
+    "name": "thoni/dca_editor",
     "type": "contao-bundle",
     "description": "Change your DCA.",
     "license": "LGPL-3.0-or-later",
