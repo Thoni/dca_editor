@@ -18,13 +18,13 @@
     "autoload": {
 		  "psr-4": {
 			  "dca_editor\\": "src/"
-		},
-	  "extra": {
-		  "contao": {
-			  "sources": {
-				  "system/modules/": "system/modules/zzz_dca"
-			  }
 		  }
+    },
+    "extra": {
+	  "contao": {
+		  "sources": {
+			  "system/modules/": "system/modules/zzz_dca"
+		  }
+	  }
     }
-  }
 }
