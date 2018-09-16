@@ -27,5 +27,8 @@
 			  "system/modules/": "system/modules/zzz_dca"
 		  }
 	  }
+    },
+    "branch-alias": {
+	"dev-master": "2.0.x-dev"
     }
 }
