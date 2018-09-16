@@ -24,7 +24,8 @@
     "extra": {
 	  "contao": {
 		  "sources": {
-			  "system/modules/": "system/modules/zzz_dca"
+			  "system/modules/": "system/modules/zzz_dca",
+			  "system/modules/dca_editor/":"src/"
 		  }
 	  }
     }
