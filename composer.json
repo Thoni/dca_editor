@@ -18,14 +18,14 @@
     },
     "autoload": {
 		  "psr-4": {
-			  "thoni\\dca_editor\\": "src/"
+			  "thoni\\dca_editor\\": "*"
 		  }
     },
     "extra": {
 	  "contao": {
 		  "sources": {
 			  "system/modules/": "system/modules/zzz_dca",
-			  "system/modules/dca_editor/":"src/"
+			  "system/modules/dca_editor/":"system/modules/dca_editor"
 		  }
 	  }
     }
