@@ -50,7 +50,7 @@ if (!defined('TL_ROOT')) die('You cannot access this file directly!');
 class dca_editor extends System
 {
 
-	var $myDir = '../system/modules/zzz_dca';
+	var $myDir = '../../zzz_dca';
 
 	/**
 	 *
