@@ -37,7 +37,7 @@
 
 array_insert(
     $GLOBALS['BE_MOD'], 10, array(
-        'devtools' => array(
+        'system' => array(
             'dca_editor' => array(
                 'icon'   => 'system/modules/dca_editor/assets/images/extension.gif',
                 'tables' => array('tl_dca_editor'),
