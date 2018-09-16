@@ -13,7 +13,7 @@
     ],
     "require": {
         "php": ">=7.1",
-    	"contao/core":"~4.4"
+    	"contao/core-bundle":"~4.4"
     },
     "autoload": {
 		  "psr-4": {
@@ -28,6 +28,6 @@
 	  }
     },
     "branch-alias": {
-	"dev-master": "2.0.0-stable"
+	"dev-master": "2.0.0-dev"
     }
 }
