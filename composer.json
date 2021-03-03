@@ -20,7 +20,7 @@
     },
     "require-dev": {
         "contao/manager-plugin": "^2.0"
-    }
+    },
     "autoload": {
 		  "psr-4": {
 			  "thoni\\dca_editor\\": "*"
@@ -32,6 +32,7 @@
 			  "system/modules/zzz_dca/": "system/modules/zzz_dca",
 			  "system/modules/dca_editor/":"system/modules/dca_editor"
 		  }
-	  }
+	  },
+        "contao-manager-plugin": "thoni\\dca_editor\\ContaoManager\\Plugin",
     }
 }
