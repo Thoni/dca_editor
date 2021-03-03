@@ -11,3 +11,5 @@ Wurde dieser Ordner mal gelöscht, wird er beim nächsten 'Speichern' mit allen 
 Die DCA-Einträge können auch exportiert und in anderen Projekten importiert werden.
 ACHTUNG: Für den Export muss ggf. der Popup-Blocker für die Seite deaktiviert werden.
 Für den Import muss die Dateiendung .xml in den Einstellungen erlaubt sein. 
+
+composer require thoni/dca_editor
