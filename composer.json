@@ -32,7 +32,6 @@
 			  "system/modules/zzz_dca/": "system/modules/zzz_dca",
 			  "system/modules/dca_editor/":"system/modules/dca_editor"
 		  }
-	  },
-        "contao-manager-plugin": "thoni\\dca_editor\\ContaoManager\\Plugin"
+	  }
     }
 }
