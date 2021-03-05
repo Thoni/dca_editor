@@ -1,6 +1,6 @@
 {
-    "name": "thoni/dca_editor",
-    "type": "contao-module",
+    "name": "thoni/contao-dca_editor-bundle",
+    "type": "contao-bundle",
     "description": "Change your DCA.",
     "license": "LGPL-3.0+",
     "authors": [
@@ -13,7 +13,8 @@
     ],
     "require": {
         "php": ">=7.1",
-    	"contao/core-bundle":"~4.4"
+    	"contao/core-bundle":"~4.4",
+        "symfony/framework-bundle": "^3.3"
     },
     "conflict": {
         "contao/manager-plugin": "<2.0 || >=3.0"
@@ -32,6 +33,7 @@
 			  "system/modules/zzz_dca/": "system/modules/zzz_dca",
 			  "system/modules/dca_editor/":"system/modules/dca_editor"
 		  }
-	  }
+	  },
+          "contao-manager-plugin": "Thoni\\dca_editor\\ContaoManager\\Plugin"
     }
 }
